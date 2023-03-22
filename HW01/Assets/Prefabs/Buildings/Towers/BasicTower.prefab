@@ -94,9 +94,54 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -9172960074209075599, guid: 70dd3cb786b458c4f8d809752ac73117, type: 3}
   m_PrefabInstance: {fileID: 4035468047830941821}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 8104009214435661762}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63b2b5e3bd82e414a845e7b8660595a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &5359189617203927915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8241435993706715926, guid: 70dd3cb786b458c4f8d809752ac73117, type: 3}
+  m_PrefabInstance: {fileID: 4035468047830941821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6822438128088192289 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: -1824248551201303204, guid: 70dd3cb786b458c4f8d809752ac73117, type: 3}
+  m_PrefabInstance: {fileID: 4035468047830941821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8104009214435661762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5221894899708270527, guid: 70dd3cb786b458c4f8d809752ac73117, type: 3}
+  m_PrefabInstance: {fileID: 4035468047830941821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8396500268842511195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8104009214435661762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93be3f913ca104743ac241bdfcfe15c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  _healthComponent: {fileID: 4085826606672272908}
+  _projectilePrefab: {fileID: -5899870701411617932, guid: ee9ab91c2f4ce5046ac331b8a4f12d7d, type: 3}
+  _boxCollider: {fileID: 6822438128088192289}
+  _objectToPan: {fileID: 8393035056185782020}
+  _projectileSpawn: {fileID: 5359189617203927915}
+  _previewPrefab: {fileID: 4867485716912935487, guid: c31a04426cfe34946a0b31e154e6b8f1, type: 3}
+  _price: 75
+  _range: 20
+  _name: Basic Tower
+  _reloadTime: 1.5
+--- !u!4 &8393035056185782020 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5510945952753364857, guid: 70dd3cb786b458c4f8d809752ac73117, type: 3}
+  m_PrefabInstance: {fileID: 4035468047830941821}
+  m_PrefabAsset: {fileID: 0}

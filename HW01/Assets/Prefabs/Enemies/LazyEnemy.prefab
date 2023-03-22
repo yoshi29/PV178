@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1546030536512741723, guid: 3cad5af2698934f4a8f5c3c3963f7075, type: 3}
+      propertyPath: m_Speed
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 428701107955260334, guid: 3cad5af2698934f4a8f5c3c3963f7075, type: 3}
       propertyPath: _healthComponent
       value: 
@@ -70,9 +74,47 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6683639460869731603, guid: 3cad5af2698934f4a8f5c3c3963f7075, type: 3}
   m_PrefabInstance: {fileID: 7078871537536058503}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 8935849628730326503}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63b2b5e3bd82e414a845e7b8660595a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4619334968831406506 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6762690824921041619, guid: 3cad5af2698934f4a8f5c3c3963f7075, type: 3}
+  m_PrefabInstance: {fileID: 7078871537536058503}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935849628730326503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40abff689d1cc2146a8fbc3425fd8dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8935849628730326503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2179662834889341280, guid: 3cad5af2698934f4a8f5c3c3963f7075, type: 3}
+  m_PrefabInstance: {fileID: 7078871537536058503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4815164305114892546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935849628730326503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da5ff685796e15489699653b4148427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movementComponent: {fileID: 4619334968831406506}
+  _healthComponent: {fileID: 4538566871457837460}
+  _onDeathParticlePrefab: {fileID: 0}
+  _onSuccessParticlePrefab: {fileID: 0}
+  _attackLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  _damage: 25
+  _reward: 25
+  _speed: 3
