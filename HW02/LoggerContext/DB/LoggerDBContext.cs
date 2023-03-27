@@ -1,4 +1,5 @@
-﻿using HW02.Helpers;
+﻿using HW02.BussinessContext;
+using HW02.Helpers;
 
 namespace HW02.LoggerContext.DB
 {
@@ -14,13 +15,10 @@ namespace HW02.LoggerContext.DB
             FileHelper.CreateFile(_filePath);
         }
 
-
-        // TODO: replace type 'object' with your data model
-        public void WriteLog(object log)
+        public void WriteLog(Log log)
         {
             using StreamWriter sw = File.AppendText(_filePath);
-            // TODO: when your data model is ready, uncomment following line
-            sw.WriteLine(/* TODO: example log.ToLogString()*/);
+            sw.WriteLine(log.ToString());
         }
     }
 }

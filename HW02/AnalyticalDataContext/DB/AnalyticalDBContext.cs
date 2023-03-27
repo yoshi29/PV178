@@ -14,15 +14,14 @@ namespace HW02.AnalyticalDataContext.DB
             FileHelper.CreateFile(_filePath);
         }
 
-        // TODO: replace type List<object> in functions headers to the appropriate data model -> List<YourDataModel>
-        public void SaveAnalyticalData(List<object> log)
+        public void SaveAnalyticalData(List<AnalyticalLog> log)
         {
             string jsonString = JsonSerializer.Serialize(log);
             using StreamWriter outputFile = new StreamWriter(_filePath);
             outputFile.WriteLine(jsonString);
         }
 
-        public List<object> ReadAnalyticalData()
+        public List<AnalyticalLog> ReadAnalyticalData()
         {
             string? line;
             using (StreamReader inputFile = new StreamReader(_filePath))
@@ -32,10 +31,10 @@ namespace HW02.AnalyticalDataContext.DB
 
             if (line == null)
             {
-                return new List<object>();
+                return new List<AnalyticalLog>();
             }
 
-            var model = JsonSerializer.Deserialize<List<object>>(line);
+            var model = JsonSerializer.Deserialize<List<AnalyticalLog>>(line);
             return model;
         }
     }

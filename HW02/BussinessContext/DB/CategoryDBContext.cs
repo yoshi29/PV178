@@ -1,5 +1,6 @@
 ﻿using HW02.Helpers;
 using System.Text.Json;
+using HW02.BussinessContext.DB.Entities;
 
 namespace HW02.BussinessContext.FileDatabase
 {

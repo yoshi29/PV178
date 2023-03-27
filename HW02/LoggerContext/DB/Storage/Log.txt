@@ -1,0 +1,17 @@
+[19.03.2023 20:12:40] Add; Category; Success; 1; Motorcycles
+[19.03.2023 20:12:40] Add; Product; Success; 1; Yamaha FZS600 Fazer; 1
+[19.03.2023 20:12:40] Add; Product; Success; 2; Suzuki SV 650S; 1
+[19.03.2023 20:12:40] Add; Category; Success; 2; Cars
+[19.03.2023 20:12:40] Add; Product; Success; 3; Ford Mustang GT500 Shelby Super Snake; 2
+[19.03.2023 20:12:40] Add; Product; Success; 4; SSC Tuatara; 2
+[19.03.2023 20:12:40] Add; Category; Success; 3; Tools
+[19.03.2023 20:12:40] Add; Product; Success; 5; Compressor; 3
+[19.03.2023 20:12:40] Add; Product; Success; 6; Torque wrench; 3
+[19.03.2023 20:12:54] Other; Command list-category is not supported
+[19.03.2023 20:12:59] Get; Category; Success
+[19.03.2023 20:13:03] Get; Product; Success
+[19.03.2023 20:13:12] Get; Product; Success
+[19.03.2023 20:13:21] Add; Product; Success; 7; TEST; 1
+[19.03.2023 20:13:23] Get; Product; Success
+[19.03.2023 20:13:31] Delete; Product; Success; 7; TEST; 1
+[19.03.2023 20:13:34] Get; Product; Success
